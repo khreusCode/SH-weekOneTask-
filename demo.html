@@ -5,69 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Week 1 Task</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     
 </head>
 <body>
     
     <section id="form-box">
         <h1>Fill form</h1>
-        <div class="form-group">
-            <label for="myName">Input name:</label></br>
+        <div class="form-group ml">
+            <label for="myName">Input name</label></br>
             <input style="width:50%;" id="myName" type="text" placeholder="input name">
         </div>
-        <div class="form-group">
-            <label for="myEmail">Enter email:</label></br>
+        <div class="form-group ml">
+            <label for="myEmail">Enter email</label></br>
             <input style="width:50%;" id="myEmail" type="email" placeholder="xyz@gmail.com">
         </div>
-        <div class="form-group">
-            <label for="myNo">Phone number:</label></br>
+        <div class="form-group ml">
+            <label for="myNo">Phone number</label></br>
             <input style="width:50%;" id="myNo" type="number" placeholder="+234">
         </div>
-        <div class="form-group">
-            <label for="">Enter password:</label></br>
+        <div class="form-group ml">
+            <label for="myPassword">Enter password</label></br>
             <input style="width:50%;" id="myPassword" type="password" placeholder="***********">
         </div>
-        <div class="form-group">
-            <label for="myGenderMale myGenderFemale">Select gender:</label></br>
-            Male<input id="myGenderMale" type="radio" name="gender">
-            Female<input id="myGenderFemale" type="radio" name="gender"> 
+        <div class="form-group ml">
+            <label for="Gender">Select Gender</label><br>
+            <select style="width:52.5%;" class="ml special" id="Gender" name="Select Gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
         </div>
-        <button id="myButton" type="submit">Submit</button>
+            <button id="myButton" type="submit">Submit</button>
     </section>
     
 </body>
-<style>
-    body{
-        background-color: #f4f4f4;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    #form-box{
-        margin:3%;
-        width: 50%;
-    }
-
-    #myButton{
-        margin-top: 10px;
-    }
-
-    .form-group{
-        margin-bottom: 10px;
-    }
-
-    #myButton:hover{
-        background-color: #555;
-        color: #fff;
-    }
-
-    #form-box h1{
-        margin-left: 18%;
-    }
-</style>
-
 <script type="text/javascript">
-    function display(){
-        alert("your message has been submitted")
+    function fnClick(){
+        alert("Submission successful");
     }
-    document.getElementById("myButton").addEventListener("click", display);
+    document.getElementById("myButton").addEventListener("click", fnClick);
 </script>
 </html>

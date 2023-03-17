@@ -1,0 +1,67 @@
+/* Default code */
+body{
+    background-color:#284b63 ;
+    background-image: url(https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg?w=1060&t=st=1678982891~exp=1678983491~hmac=4fc8d909485673b86ab52bae03e562c3bb8e3f328533127af95810af589ef3a5);
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    color: #fff;
+    
+
+
+}
+#form-box{
+    margin:3%;
+    width: 70%;
+    /* padding: 20px 50px; */
+}
+
+#myButton{
+  width: 15%;
+  background-color: #ffcdb2;
+  color: white;
+  padding: 10px 5px;
+  margin-top:30px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.form-group{
+    margin-bottom:10px;
+}
+
+#myButton:hover{
+    background-color:#6d6875 ;
+    color: #fff;
+}
+
+#form-box h1{
+    margin-left: 18%;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+ .ml{
+    font-size: 20px;
+ }
+
+input{
+    border: none;
+    border-bottom: 1px solid #caadf8;
+    color: #0d0707;
+    outline: none;
+    border-radius: 4px;
+    padding: 10px 10px;
+    margin: 5px 0;
+}
+
+.special{
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin: 2px 0;
+}
+
+input:focus{
+    background-color: #ceb6f3;
+}
